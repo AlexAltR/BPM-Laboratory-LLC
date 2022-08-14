@@ -119,8 +119,9 @@
 .pagination li:not(:last-child){
     margin-right: 10px;
 }
-.pagination li:hover{
+.pagination li:hover, .pagination li.active{
     cursor: pointer;
-    color: #000;
-    border: 1px solid #000;
+    color: red;
+    border: 1px solid red;
+    background-color: #f1f1f1;
 }
